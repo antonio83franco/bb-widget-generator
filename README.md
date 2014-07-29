@@ -44,4 +44,9 @@ If you'd like to get to know Yeoman better and meet some of his friends, [Grunt]
 
 ## License
 
-MIT
+MI
+
+## How to use it
+
+We can use the link command to just link the folder into the gem path. 
+From the project directory, simply run npm link.T

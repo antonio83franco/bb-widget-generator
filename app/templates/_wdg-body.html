@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:g="http://www.backbase.com/2008/gadget" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title><%= wdg_name %></title>
+
+	<g:preferences>
+		<g:preference name="locale" label="Locale" type="text" default="en-US" />
+	</g:preferences>
+
+	<script src="../../conf/require-conf.js"></script>
+
+	<link rel="stylesheet" type='text/css' href="css/<%= wdg_name_dash %>.css" />
+</head>
+	<body class="lp-<%= wdg_name_dash %>" g:onload="requireWidget(__WIDGET__, 'js/<%= wdg_name_dash %>');">
+		<h3>Yay</h3>
+		<div><%= wdg_name %> widget is ready to go!</div>
+	</body>
+</html>

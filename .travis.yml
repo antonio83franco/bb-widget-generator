@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-lp-widget' ]; then cd .. && eval "mv $currentfolder generator-lp-widget" && cd generator-lp-widget; fi
+

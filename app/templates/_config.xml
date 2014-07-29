@@ -1,0 +1,26 @@
+<widget>
+    <name>widget-<%= wdg_name_dash %></name>
+    <contextItemName>[BBHOST]</contextItemName>
+    <extendedItemName>widget-launchpad-base</extendedItemName>
+    <properties>
+        <property label="Icon" name="icon" viewHint="text-input,user,designModeOnly">
+            <value type="string"><%= wdg_name_dash %></value>
+        </property>
+        <property name="title">
+            <value type="string"><%= wdg_name %></value>
+        </property>
+        <property name="thumbnailUrl">
+            <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
+        </property>
+        <property name="src">
+            <value type="string">$(contextRoot)/static/launchpad/widgets/<%= wdg_name_dash %>/index.html</value>
+        </property>
+        <property name="locale">
+            <value type="string">en-US</value>
+        </property>
+    </properties>
+    <tags>
+        <tag type="regular">retail</tag>
+        <tag type="section">launchpad</tag>
+    </tags>
+</widget>
